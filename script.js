@@ -1,9 +1,8 @@
 const emailInput = document.querySelectorAll("input")[0];
 const passwordInput = document.querySelectorAll("input")[1];
-const loginForm = document.querySelector("#loginForm");
 const emailError = document.querySelector(".usermail");
 const passwordError = document.querySelector(".password");
-const loginResults = document.querySelector(".login-success");
+const loginResults = document.getElementsByClassName("login-success");
 
 const validEmails = ["abdullgames@gmail.com", "jibrilUni@gmail.com"];
 
